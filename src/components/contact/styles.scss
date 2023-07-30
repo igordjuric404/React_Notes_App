@@ -1,0 +1,83 @@
+/* Contact.scss */
+
+/* Style for the container holding the form */
+.contact-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  
+  p,h2{
+    color: #ffffff;
+  }
+}
+
+/* Style for the form */
+.contact-form {
+  color: white;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column; /* Change to column to stack the form elements */
+  align-items: center;
+  gap: 10px; /* Add gap between the form elements */
+
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Add gap between the form elements */
+  }
+
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+    padding: 5px;
+  }
+
+  textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+    padding: 5px;
+  }
+
+}
+
+// SCSS for the table
+table {
+  border: #000 solid thin;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+  // Style the table header
+  thead {
+    background-color: #e6e6fe;
+
+    th {
+      border: #000 solid thin;
+
+      padding: 10px;
+      text-align: left;
+      font-weight: bold;
+    }
+  }
+
+  // Style the table cells
+  tbody {
+    td {
+      border: #000 solid thin;
+      background-color: #e6e6fe;
+      padding: 10px;
+    }
+  }
+}

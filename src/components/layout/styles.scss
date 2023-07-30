@@ -1,0 +1,88 @@
+.header {
+  flex: 0 1 40px;
+  height: 85px;
+  display: flex;
+  color: #3f425d;
+  flex-direction: row;
+  background-color: #e6e6fe;
+  border-bottom: #9393ff 2px solid;
+  box-shadow: 1px 0px 7px -2px #000000;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  .header-logo {
+    height: 100%;
+    width: 4%;
+    padding: 10px;
+
+    img {
+      height: 70%;
+    }
+  }
+
+  .header-title {
+    display: flex;
+    text-align: left;
+    width: 60%;
+    padding: 20px;
+  }
+
+  .header-nav {
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+
+    .nav {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+
+      a {
+        font-size: 20px;
+        color: #000000;
+        font-weight: bold;
+        text-decoration: none;
+        color: #3f425d;
+      }
+    }
+  }
+}
+
+.app {
+  width: 1190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+
+  .main {
+    height: auto;
+    width: 100%;
+    float: left;
+  }
+
+  p {
+    color: #000000;
+  }
+  .paragraph-div {
+    padding: 5px;
+    font-size: 20px;
+  }
+}
+
+.footer {
+  flex: 0 1 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e6e6fe;
+  border-top: #9393ff 2px solid;
+  box-shadow: 1px 0px 7px -2px #000000;
+}
